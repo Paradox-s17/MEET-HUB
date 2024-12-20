@@ -1,0 +1,77 @@
+
+.meetVideoContainer {
+    position: relative;
+    height: 100vh;
+    background: rgb(1, 4, 48);
+}
+
+.meetUserVideo {
+    position: absolute;
+    bottom: 10vh;
+    height: 20vh;
+    width: auto;
+    left: 0;
+    border-radius: 20px;
+}
+
+.buttonContainers {
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    text-align: center;
+}
+
+.buttonContainers svg {
+    font-size: 3rem;
+}
+
+.conferenceView { 
+
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+.conferenceView  video {
+    width: 40vw;
+    height: 20vh;
+    min-width: 30vw;
+    border-radius: 10px;
+    
+}
+
+.chatRoom {
+    position: absolute;
+    height: 90vh;
+    right: 0;
+    background: white;
+    border-radius: 10px;
+    width: 30vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chatContainer {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chattingDisplay {
+    flex: 1; /* Takes up all available vertical space */
+    overflow-y: auto; /* Enables vertical scrolling */
+    margin-bottom: 10px; /* Spacing between messages and input field */
+    padding: 10px; /* Add some padding inside the scrollable area */
+    border: 1px solid #ddd; /* Optional: Add a border around the chat display */
+    border-radius: 5px; /* Optional: Rounded corners */
+}
+
+
+.chattingArea {
+    position: relative;
+    bottom: 0;
+    display: flex; /* If you want to arrange input fields/buttons horizontally */
+    gap: 10px;
+}
